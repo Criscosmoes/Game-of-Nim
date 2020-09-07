@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c1015a4a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="click.css"/>
+    <title>Game of Nim</title>
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="winner">
+            <h1 id="winner-msg">Player One is the Winner!<br> Congratulations!</h1>
+            <nav>
+                <a href="/index.html">Restart!</a>
+            </nav>
+        </div>
+
+
+        <header class="first">
+            <div class="player">
+                <h1 id="player-name">Player One's Turn!</h1>
+                <h2>Stones: <span class="choice">1</span></h2>
+                <div id="buttons">
+                <button class="minus"><i class="fas fa-minus"></i></button>
+                <button class="plus"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+            <ul class="items">
+                <i class="fas fa-gem"></i>
+            </ul>
+        </header>
+        <section class="remaining">
+            <div id="submit">
+                <button>Submit!</button>
+            </div>
+            <h2>Stones remaining:<span id="stones-left">    12</span></h2>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
